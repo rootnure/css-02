@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#welcome-msg {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.blogs {
+    background-image: url('../image/blogs-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 10px 0;
+}
+
+.blog {
+    width: 65%;
+    margin: 10px auto 20px;
+    padding: 10px;
+    padding-left: 15px;
+    border-left: 5px dotted whitesmoke;
+    border-radius: 0px 10px 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#blog-1 {
+    box-shadow: 10px 10px 25px blueviolet;
+    border-top: 1px solid blueviolet;
+    border-right: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
+    /* border-left: 5px dotted blueviolet; */
+}
+
+#blog-2 {
+    box-shadow: 10px 10px 25px whitesmoke;
+    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    /* border-left: 5px dotted whitesmoke; */
+}
+
+#blog-2>.description {
+    visibility: hidden;
+}
+
+#blog-3 {
+    box-shadow: 10px 10px 25px blue;
+    border-top: 1px solid blue;
+    border-right: 1px solid blue;
+    border-bottom: 1px solid blue;
+    /* border-left: 5px dotted blue; */
+}
+
+#blog-3>.author {
+    display: none;
+}
+
+#blog-4 {
+    box-shadow: 10px 10px 25px gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    /* border-left: 5px dotted gray; */
+}
+
+.title {
+    font-size: large;
+    margin: 5px 0;
+}
+
+.author {
+    font-size: small;
+    margin: 5px 0;
+}
+
+.description {
+    text-align: justify;
+    margin: 5px 0;
+}
+
+#important {
+    display: inline-block;
+    height: 25px;
+    border: 2px solid lightyellow;
+}
+
+.btn {
+    padding: 5px 10px;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #5656ff;
+    cursor: pointer;
+}
